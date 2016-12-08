@@ -25,17 +25,3 @@ app.get('/exercises/:id', function(req, res, next) {
       res.json(exercise);
   });
 });
-
-
-
-// app.post('/exercises', function(req, res, next) {
-//   knex('exercises').insert({
-//     muscle_group: req.body.muscle_group,
-//     'intensity_scale_1-5': req.body['intensity_scale_1-5'],
-//     name: req.body.name
-//   }).then((exercise)=> {
-//     knex('exercieses').then(function(exercise) {
-//       res.json(exercise);
-//     });
-//   });
-// });
