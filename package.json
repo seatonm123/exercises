@@ -1,0 +1,17 @@
+{
+  "name": "knexapp",
+  "version": "1.0.0",
+  "description": "I suck at this",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "knex": "^0.12.6",
+    "pg": "^6.1.0"
+  }
+}
